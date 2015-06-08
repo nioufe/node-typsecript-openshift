@@ -1,0 +1,35 @@
+{
+  "name": "node-typsecript-openshift",
+  "version": "0.0.1",
+  "description": "Boilerplate for any project",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift",
+    "typescript"
+  ],
+  "author": {
+    "name": "Adrien TRAUTH",
+    "email": "adrientn@gmail.com",
+    "url": "http://pardonmy404.blogspot.com"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "express": "4.11.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-changed": "^1.2.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-typescript": "^2.7.6",
+    "tsd": "^0.6.1",
+    "typescript": "^1.5.0-beta"
+  },
+  "bundleDependencies": [],
+  "private": false,
+  "main": "dist/server/server.js"
+}
